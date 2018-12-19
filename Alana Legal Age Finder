@@ -1,0 +1,8 @@
+age = 10
+
+if age < 18:
+  print("No lotto tickets, No voting, No smoking")
+if age < 21:
+  print("No drinking, No renting a car")
+if age > 25:
+  print("You can do it all!")
