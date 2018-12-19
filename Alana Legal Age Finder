@@ -1,8 +1,20 @@
-age = 10
+age = input("Enter your age:")
+print("Or type quit ot quit")
+if age != 'quit':
 
-if age < 18:
-  print("No lotto tickets, No voting, No smoking")
-if age < 21:
-  print("No drinking, No renting a car")
-if age > 25:
-  print("You can do it all!")
+    if age < 18:
+        print("No lotto tickets, No voting, No smoking")
+    if age < 21:
+        print("No drinking, No renting a car")
+    if age > 25:
+        print("You can do it all!")
+age2 = input("Enter another age or quit:")
+if age2 != 'quit':
+    if age < 18:
+        print("No lotto tickets, No voting, No smoking")
+    if age < 21:
+        print("No drinking, No renting a car")
+    if age > 25:
+        print("You can do it all!")
+while age2 == 'quit':
+    print("bye")
